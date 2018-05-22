@@ -18,3 +18,23 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 426px) and (max-width: 770px) {
+  .tile {
+    width: 100%;
+  }
+
+  .main-content {
+    margin: 0 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+	.tile {
+    width: 100%;
+  }
+
+  .main-content {
+    margin: 0 40px;
+  }
+}
