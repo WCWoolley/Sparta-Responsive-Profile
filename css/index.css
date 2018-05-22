@@ -31,7 +31,17 @@ header, .experience {
 	padding: 10px;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 426px) and (max-width: 770px) {
+	header, .experience {
+		border: 0px solid white;
+	}
+
+	.left, .right {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
 	header, .experience {
 		border: 0px solid white;
 	}
@@ -40,5 +50,4 @@ header, .experience {
 		float: none;
 		width: 100%;
 	}
-
 }
