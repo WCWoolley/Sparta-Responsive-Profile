@@ -21,11 +21,11 @@
 
 @media screen and (min-width: 426px) and (max-width: 770px) {
   .tile {
-    width: 100%;
+    width: 46%;
   }
 
   .main-content {
-    margin: 0 80px;
+    margin: 0 40px;
   }
 }
 
